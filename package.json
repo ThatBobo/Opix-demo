@@ -1,21 +1,13 @@
 {
   "name": "opix-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A demo of Opix",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "dev": "vite"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThatBobo/Opix-demo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ThatBobo/Opix-demo/issues"
-  },
-  "homepage": "https://github.com/ThatBobo/Opix-demo#readme"
+  "author": "ThatBobo",
+  "license": "MIT",
+  "type": "module"
 }
